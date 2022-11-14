@@ -1,6 +1,4 @@
-const prmpt = prompt("Password: ");
-function A(){
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js";
+ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-analytics.js";
 import {
   getDatabase,
@@ -10,6 +8,9 @@ import {
   update,
   remove,
 } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-database.js";
+const prmpt = prompt("Password: ");
+function A(){
+ 
 const Form = document.querySelector(".Form");
 const patroPatri = document.getElementsByName("patroPatri");
 const namee = document.querySelector(".name");
