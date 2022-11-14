@@ -1,4 +1,6 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js";
+const prmpt = prompt("Password: ");
+function A(){
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-analytics.js";
 import {
   getDatabase,
@@ -308,3 +310,10 @@ Form.addEventListener("submit", (e) => {
   //////////////////
   PostData();
 });
+}
+// 
+if(prmpt == "s"){
+  A();
+}else{
+  window.location = "https://dindar-patropatri.netlify.app";
+}
